@@ -156,6 +156,22 @@ public final class StrUtil
             return ( s.equals("1") || s.equals("true") ) ;            
         }
     }
+    
+    /**
+     * @param sVal : the string to convert 
+     * @return boolean : true is the string is "1" or "true" ( after trim ), else ( other values or null ) false
+     */
+    public static final boolean getBoolean(final String sVal, boolean dflt) {
+        if (sVal == null || sVal.length() == 0)
+        {
+            return dflt ;
+        }
+        else
+        {
+            String s = sVal.trim();
+            return ( s.equals("1") || s.equals("true") ) ;            
+        }
+    }
 
     /**
      * Return a date instance from a date in French format 
