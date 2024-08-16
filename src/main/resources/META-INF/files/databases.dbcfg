@@ -53,7 +53,7 @@
 <!--
 	<db id = "0" 
 		name     = "MySQL bookstore" 
-		driver   = "com.mysql.jdbc.Driver" 
+		driver   = "com.mysql.cj.jdbc.Driver"
 		url      = "jdbc:mysql://localhost:3306/bookstore" 
 		typeName = "MYSQL"
 		dialect  = "org.hibernate.dialect.MySQLDialect"

@@ -104,7 +104,7 @@ public class DatabaseTypeProvider {
 				"MYSQL",   // Name : must be unique (used as KEY)     
 				"MYSQL",       
 				"org.hibernate.dialect.MySQLDialect",
-				"com.mysql.jdbc.Driver",
+				"com.mysql.cj.jdbc.Driver",
 				"jdbc:mysql://localhost:3306/<DB_NAME>",
 				"") ) ;
 		
